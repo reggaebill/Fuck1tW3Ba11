@@ -12,9 +12,8 @@ f = Fernet(key)
 #print(token)
 
 
-###update token with new message to decrypt
+###update token with new README message to decrypt
 token = b''
-
 ###this is the juice.
 message = (f.decrypt(token))
 
